@@ -13,6 +13,7 @@
     "cpu": true,
     "opencl": false,
     "cuda": false,
+    "ghostrider": false,
     "pools": [
         {
             "url": "us-west.minexmr.com:443",
