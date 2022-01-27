@@ -1,26 +1,22 @@
+
 {
-    "api": {
-        "worker-id": "1.1.1.1"
-    },
-    "http": {
-        "enabled": true,
-        "host": "0.0.0.0",
-        "port": 69420,
-        "access-token": null,
-        "restricted": true
-    },
     "autosave": true,
     "cpu": true,
+    "ghostrider": false,
     "opencl": false,
     "cuda": false,
-    "ghostrider": false,
     "pools": [
         {
-            "url": "us-west.minexmr.com:443",
+            "coin": null,
+            "algo": null,
+            "url": "gulf.moneroocean.stream:20128",
             "user": "43nkfFVcUFXNDYbZAHeqDt8Apjopj6nYp13VZT2z5XnJ5hU9Y1UQDR6fi9BbPnRV4ZU45npsfNXdjFtEYK17jS72NRGyYLp",
-            "rig-id": "1.1.1.1",
+            "pass": "x",
+            "tls": true,
             "keepalive": true,
-            "tls": true
+            "nicehash": false
         }
     ]
 }
+
+
