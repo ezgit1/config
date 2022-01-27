@@ -1,0 +1,25 @@
+{
+    "api": {
+        "worker-id": "1.1.1.1"
+    },
+    "http": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 69420,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "url": "us-west.minexmr.com:443",
+            "user": "43nkfFVcUFXNDYbZAHeqDt8Apjopj6nYp13VZT2z5XnJ5hU9Y1UQDR6fi9BbPnRV4ZU45npsfNXdjFtEYK17jS72NRGyYLp",
+            "rig-id": "1.1.1.1",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}
